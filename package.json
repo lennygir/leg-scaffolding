@@ -1,0 +1,26 @@
+{
+  "name": "leg-scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "leg": "bin/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennygir/leg-scaffolding.git"
+  },
+  "author": "Lenny GIRARDOT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennygir/leg-scaffolding/issues"
+  },
+  "homepage": "https://github.com/lennygir/leg-scaffolding#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  }
+}
