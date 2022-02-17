@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tslint -c tslint.json -p tsconfig.json"
   },
   "bin": {
-    "leg": "bin/index.ts"
+    "leg": "./bin/index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/lennygir/leg-scaffolding#readme",
   "devDependencies": {
     "@types/node": "^17.0.18",
+    "tslint": "^5.12.1",
     "typescript": "^4.5.5"
   }
 }
