@@ -52,8 +52,8 @@ export default class {
         }
         console.log(`\nUsage: ${this.#desc}`);
         if(this.#opt.length > 0) {
-            console.log(`\nParameters: ${this.#opt.forEach(element => {
-                return element.opt + ': ' + element.desc;
+            console.log(`\nParameters:\n${this.#opt.map(element => {
+                return '\t' + element.opt + ': ' + element.desc;
             }).join('\n')}`);
         }
         console.log('');
