@@ -2,12 +2,12 @@
   "name": "leg-scaffolding",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.mjs",
   "scripts": {
-    "test": "tslint -c tslint.json -p tsconfig.json"
+    "test": "eslint \"bin/**/*.mjs\""
   },
   "bin": {
-    "leg": "./bin/index.ts"
+    "leg": "./bin/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/lennygir/leg-scaffolding#readme",
   "devDependencies": {
-    "@types/node": "^17.0.18",
-    "tslint": "^5.12.1",
-    "typescript": "^4.5.5"
+    "eslint": "^8.9.0"
   }
 }
