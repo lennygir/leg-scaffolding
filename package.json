@@ -2,6 +2,7 @@
   "name": "@lennygir/leg-scaffolding",
   "version": "1.0.1",
   "description": "Scaffolding tool for [rest-api-node-template](https://github.com/lennygir/rest-api-node-template)",
+  "keywords": ["rest","api","scaffolding","controllers","middlewares","repositories","interceptors"],
   "main": "index.mjs",
   "scripts": {
     "test": "eslint \"bin/**/*.mjs\""
