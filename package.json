@@ -5,7 +5,8 @@
   "keywords": ["rest","api","scaffolding","controllers","middlewares","repositories","interceptors"],
   "main": "index.mjs",
   "scripts": {
-    "test": "eslint \"bin/**/*.mjs\""
+    "test": "eslint \"bin/**/*.mjs\"",
+    "publish": "npm run test && npm publish --access=public"
   },
   "bin": {
     "leg": "bin/index.mjs"
