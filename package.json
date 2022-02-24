@@ -1,5 +1,5 @@
 {
-  "name": "leg-scaffolding",
+  "name": "@lennygir/leg-scaffolding",
   "version": "1.0.0",
   "description": "",
   "main": "index.mjs",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/lennygir/leg-scaffolding.git"
   },
-  "author": "Lenny GIRARDOT",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lennygir/leg-scaffolding/issues"
