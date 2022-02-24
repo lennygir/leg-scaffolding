@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import Command from './command.mjs';
 import CommandSet from './commandSet.mjs';
-import { generate } from './file.mjs'
+import { generate } from './file.mjs';
 
 (new Command())
     .command('version')
@@ -35,7 +35,7 @@ import { generate } from './file.mjs'
         } else if(process.argv.length < 5) {
             console.log('\nLeg: Please specify a name: leg generate|g <type> <name>.\n');
         }
-        generate(process.cwd(), process.argv[1], process.argv[3], process.argv[4])
+        generate(process.cwd(), process.argv[1], process.argv[3], process.argv[4]);
     })
     .save();
 

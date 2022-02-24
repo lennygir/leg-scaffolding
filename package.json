@@ -1,19 +1,19 @@
 {
   "name": "@lennygir/leg-scaffolding",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Scaffolding tool for [rest-api-node-template](https://github.com/lennygir/rest-api-node-template)",
   "main": "index.mjs",
   "scripts": {
     "test": "eslint \"bin/**/*.mjs\""
   },
   "bin": {
-    "leg": "./bin/index.mjs"
+    "leg": "bin/index.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lennygir/leg-scaffolding.git"
   },
-  "author": "",
+  "author": "Lenny GIRARDOT",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lennygir/leg-scaffolding/issues"
@@ -21,5 +21,6 @@
   "homepage": "https://github.com/lennygir/leg-scaffolding#readme",
   "devDependencies": {
     "eslint": "^8.9.0"
-  }
+  },
+  "dependencies": {}
 }

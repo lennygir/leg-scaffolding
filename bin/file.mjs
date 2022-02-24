@@ -3,7 +3,7 @@ import fs from 'fs';
 const REPLACER = {
     'Xxxxx': (text) => text[0].toUpperCase() + text.slice(1).toLowerCase(),
     'xxxxx': (text) => text.toLowerCase()
-}
+};
 
 // Buffer splice
 // If <length> is negative --> remove |length| items at <index>
@@ -25,7 +25,7 @@ function replaceInBuffer(buff, toReplace, substitute) {
             buff[index + i] = substitute[i].charCodeAt(0);
         }
     }
-    return buff
+    return buff;
 }
 
 function generate(endPath, templatePath, type, name) {
@@ -49,7 +49,7 @@ function generate(endPath, templatePath, type, name) {
             }
             console.log(`\nLeg: ${name}${type[0].toUpperCase() + type.slice(1).toLowerCase()}.ts has been generated\n`);
         });
-    })
+    });
 }
 
-export { generate }
+export { generate };
