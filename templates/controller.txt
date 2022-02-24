@@ -1,0 +1,21 @@
+import { Controller, Get } from 'routing-controllers';
+import { Service } from 'typedi';
+
+@Controller('/xxxxx')
+@Service()
+export class XxxxxController {
+
+    constructor() { }
+
+    /**
+     * @swagger
+     * /:
+     *   get:
+     *     summary:
+     *     description:
+     */
+    @Get('/')
+    public baseEndpoint(): string {
+        return 'New endpoint';
+    }
+}
