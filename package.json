@@ -2,12 +2,21 @@
   "name": "@lennygir/leg-scaffolding",
   "version": "1.0.3",
   "description": "Scaffolding tool for [rest-api-node-template](https://github.com/lennygir/rest-api-node-template)",
-  "keywords": ["rest","api","scaffolding","controllers","middlewares","repositories","interceptors"],
+  "keywords": [
+    "rest",
+    "api",
+    "scaffolding",
+    "controllers",
+    "middlewares",
+    "repositories",
+    "interceptors"
+  ],
   "main": "index.mjs",
   "scripts": {
-    "test": "eslint \"bin/**/*.mjs\"",
+    "test": "eslint \"./**/*.mjs\"",
     "publish-npm": "npm run test && npm publish --access=public",
-    "publish-git": "npm run test && git add * && git commit -m"
+    "publish-git": "npm run test && git add * && git commit -m",
+    "postinstall": "for file in `ls .git-hooks`; do ln -sf ../../.git-hooks/${file} .git/hooks/${file}; done"
   },
   "bin": {
     "leg": "bin/index.mjs"
