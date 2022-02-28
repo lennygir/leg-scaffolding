@@ -44,7 +44,7 @@ import { generate, init } from './file.mjs';
     .command('i')
     .description('Initiate a new API project')
     .execute(() => {
-        init();
+        init(process.cwd(), process.argv[1]);
     })
     .save();
 
