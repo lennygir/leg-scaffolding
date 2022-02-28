@@ -1,6 +1,6 @@
 {
   "name": "@lennygir/leg-scaffolding",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Scaffolding tool for [rest-api-node-template](https://github.com/lennygir/rest-api-node-template)",
   "keywords": [
     "rest",
