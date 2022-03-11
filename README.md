@@ -23,7 +23,7 @@ npm i -S @lennygir/leg-scaffolding
 - generate, g :     Generate files (controller, repository, middleware, interceptor)
 - init, i :         Create a new project
 
-Help available using -h or --help: leg <command> -h|--help.
+Help available using -h or --help: leg [command] -h|--help.
 
 ## Incomming updates :
 
